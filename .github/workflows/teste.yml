@@ -8,10 +8,10 @@ jobs:
   call-reusable-workflow:
     # Define um job chamado "call-reusable-workflow".
 
-    uses: PajmaB/workflower/main/.github/workflows/ci.yml
+    uses: PajmaB/workflower/.github/workflows/ci.yml@main
     # Especifica a localização do workflow reutilizável que deve ser chamado.
     # Certifique-se de que o caminho e branch (main) estão corretos.
 
     with:
       message: "Teste Realizado com sucesso"
-      # Passa a mensagem "Teste Realizado" como input para o workflow reutilizável.
+      ## Passa a mensagem "Teste Realizado" como input para o workflow reutilizável.
